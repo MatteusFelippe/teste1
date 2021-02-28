@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Atividade</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <main>
+                <article>
+                    <nav>
+                        <input type="checkbox" id="check">
+                        <label for="check" class="checkbtn">
+                            <i class="fas fa-bars"></i>
+                        </label>
+                        <label class="logo">Referências HTML5</label>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="referencias.html">REFERÊNCIAS</a></li>
+                            <li><a href="sobre.html">SOBRE</a></li>
+                        </ul>
+                    </nav>
+                    <h1 class="titulo">Tag HTML &lt;data&gt;</h1>
+                    <div class="dExemplo">
+                        <h3>Exemplo</h3>
+                        <p>O exemplo a seguir exibe nomes de produtos e associa cada nome a um número de produto:</p>
+                        <div class="dCodigo">
+                            &lt;ul&gt;<br>&nbsp; &lt;li&gt;&lt;data value=&quot;21053&quot;&gt;Tomate&lt;/data&gt;&lt;/li&gt;
+                            <br>&nbsp; &lt;li&gt;&lt;data value=&quot;21054&quot;&gt;Alface&lt;/data&gt;&lt;/li&gt;
+                            <br>&nbsp; &lt;li&gt;&lt;data value=&quot;21055&quot;&gt;Batata&lt;/data&gt;&lt;/li&gt;<br>&lt;/ul&gt; </div>
+                    </div>
+                    <hr>
+                    <h2 class="titulo">Definição e uso</h2>
+                    <div class = "dDefinicao">
+                        <p>A tag &lt;data&gt; é utilizada para adicionar uma tradução legível por máquina de um determinado conteúdo.</p>
+                        <p>Este elemento fornece um valor legível por máquina para processadores de dados e um valor legível por humanos 
+                            para renderização em um navegador.</p>
+                        <p><strong>Dica:</strong> Se o conteúdo estiver relacionado a hora ou data, use o elemento &lt;time&gt;.</p>     
+                    </div>
+                    <hr>
+                    <h2 class="titulo">Atributos</h2>
+
+                    <table class = "tReferencias" style="padding-top: 10px;">
+                        <thead>
+                            <tr>
+                                <th>Atributo</th>
+                                <th>Valor</th>
+                                <th>Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>value</td>
+                                <td>machine-readable format</td>
+                                <td>Especifica a tradução legível por máquina do conteúdo do elemento</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+                    <h2 class="titulo">Outros exemplos</h2>
+                    <div class="dExemplo">
+                        <h3>Exemplo</h3>
+                        <p>O exemplo a seguir exibe nomes de produtos, mas também associa cada nome a seu código UPC</p>
+                        <div class="dCodigo">
+                            &lt;p&gt;Novos Produtos&lt;/p&gt;<br>
+                            &lt;ul&gt;<br>&nbsp; &lt;li&gt;&lt;data value=&quot;3967381398&quot;&gt;Ketchup 
+                            Pequeno&lt;/data&gt;&lt;/li&gt;<br>&nbsp; &lt;li&gt;&lt;data value=&quot;3967381399&quot;&gt;Ketchup
+                            Grande&lt;/data&gt;&lt;/li&gt;<br>&nbsp; &lt;li&gt;&lt;data value=&quot;3967381400&quot;&gt;Ketchup  
+                            Muito Grande&lt;/data&gt;&lt;/li&gt;<br>&lt;/ul&gt; 
+                        </div>
+                        <p>O exemplo a seguir exibe refrigerantes, mas também associa cada refrigerante ao seu código</p>
+                        <div class="dCodigo">
+                            &lt;p&gt;Refrigerantes&lt;/p&gt;<br>
+                            &lt;ul&gt;<br>&nbsp; &lt;li&gt;&lt;data value=&quot;1545325112&quot;&gt;Coca-Cola 500ml
+                            &lt;/data&gt;&lt;/li&gt;<br>&nbsp; &lt;li&gt;&lt;data value=&quot;1545325113&quot;&gt;Coca-Cola 330ml 
+                            &lt;/data&gt;&lt;/li&gt;<br>&nbsp; &lt;li&gt;&lt;data value=&quot;1545325114&quot;&gt;Coca-Cola Light  
+                            330ml&lt;/data&gt;&lt;/li&gt;<br>&lt;/ul&gt; 
+                        </div>
+                    </div>
+                    
+
+                </article>
+            </main>
+        </div>
+    </body>
+</html>
